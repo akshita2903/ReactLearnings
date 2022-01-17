@@ -1,0 +1,45 @@
+.headers{
+    display: flex;
+    align-items: center;
+    height:65px;
+    background:linear-gradient(90deg,#830de4 1.18%,#2603a6 100%);
+color:white;
+padding:20px;
+}
+.h-image{
+    height: 95%;
+    margin-right:6px;
+}
+.h-title{
+    font-size: 28px;
+    margin-right:auto;
+}
+
+.h-text{
+    font-size: 15px;
+    font-weight: 50%;
+}
+main{
+    padding:36px;
+}
+.forms{
+    display: grid;
+  grid-template: 40px 40px / 1fr 1fr;
+  gap:17px;
+}
+.f-button{
+    grid-column: 1 / -1;
+    border-radius: 5px;
+    color:white;
+    background:linear-gradient(90deg,#830de4 1.18%,#2603a6 100%);
+}
+.f-input{
+    border-radius: 5px;
+    text-indent: 5px;
+}
+.memes_img{
+    display:flex;
+    background-size: cover;
+   max-width: 100%;
+
+}
