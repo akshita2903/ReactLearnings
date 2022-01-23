@@ -3,15 +3,19 @@ import './style.css';
 function Header() {
     return (
         <div>
-          <header className='headers'>
-      <img src={require("./images/jeery.png")} className="h-image"></img>
+     
+          <div className='headers'>
+      
              
              
-              <h2 className="h-title">Memes Generator</h2>
-         
-         <h5 className='h-text'>Memes</h5>
-         
-          </header>  
+              <p className="h-title">Memes Generator</p>
+        
+         <h3 className='h-text'>Memes</h3>
+
+       
+        
+          <img src={require("./images/jeery.png")} className="h-image"></img>
+          </div>  
         </div>
     )
 }

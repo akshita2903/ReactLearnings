@@ -1,4 +1,4 @@
-import React,{useState} from 'react'
+import React from 'react'
 
  function CallBAck() {
 /*
@@ -18,11 +18,14 @@ function addi(){
 
 //len=ar1.length;
       newar(pa => {
-        
-          [...pa,`t ${pa.length + 1}`]
+      
+       return  [...pa,`t ${pa.length + 1}`]
       });
     }
-    const things=ar1.map(th=><p key={th}>{th}</p>)
+    function display(title){
+return <p> {title} </p>
+    }
+    const things=ar1.map(display)
     return (
         <div>
          <button onClick={addi}>Add Items</button>   

@@ -46,11 +46,10 @@ set_meme_detail(
     //     )
     // }
     function handleText(e){
-        const{name,value}=e.target;
         set_meme_detail((prev)=>{
             return {
                 ...prev,
-                [name]:value
+                [e.target.name]:e.target.value
             }
         })
     }
@@ -59,26 +58,17 @@ set_meme_detail(
        <>
     <main>
            <div className="forms">
-               <input type="text" className="f-input" placeholder="top-text"  name="top_text"
-               value={meme_detail.top_text}
-                onChange={handleText}>
+               <input type="text" className="f-input" placeholder="top-text"  name="top_text" onChange={handleText}>
 
                </input>
-               <input type="text" className='f-input' placeholder="bottom-text" name="bottom_text" 
-               value={meme_detail.bottom_text}
-               onChange={handleText}></input>
+               <input type="text" className='f-input' placeholder="bottom-text" name="bottom_text" onChange={handleText}></input>
 
 
 
                <button type="submit" className='f-button' onClick={getImage}>Get a New Memes :)</button>
-               </div>
-               <br></br>
-<div className='memes_display'>
-          <img src={meme_detail.img_url} alt="Memes_img"></img>
-          <h2 className='top_text'>{meme_detail.top_text}</h2>
-          <h2 className='bottom_text'>{meme_detail.bottom_text}</h2>
-          </div>
-          
+         
+          <img src={meme_detail.img_url} alt="Memes_img" className='memes_img'></img>
+           </div>
            </main>
        </>
 
