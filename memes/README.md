@@ -2,7 +2,7 @@
 # Project-2 Memes Generator
 **1.** Output
 
-<img src="src/images/memes_output.png">
+<img src="src/component/images/memes_output.png">
 
 
 
