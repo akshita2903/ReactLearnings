@@ -2,7 +2,8 @@
 # Project-2 Memes Generator
 **1.** Output
 
-<img src="src/component/images/memes_output.png">
 
 
 
+
+![memes_output](https://user-images.githubusercontent.com/68686051/215075904-3ad2dd07-9b5d-4ce3-b1ba-63eb44da199e.png)
