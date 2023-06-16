@@ -1,0 +1,11 @@
+useReducer ,a hook for state management
+and 
+useState is built usign useReducer
+
+
+when to use useReducer vs useState
+
+reduce in javascript                                     |          useReducer in React
+arrys.reduce(reducer,initial value)                      |  useReducer(reducer,initialState)
+singlevalue=reducer(accumulator,itemValue)               |  newState=reducer(currentstate,action)
+reduce methds returns a single value                     |  useReducer returns a pair of values =>  {newState,dispatch}
